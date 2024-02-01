@@ -11,7 +11,7 @@
     "workerThreads": false
   },
   "bugs": {
-    "url": "https://github.com/semantic-release/npm/issues"
+    "url": "https://github.com/glzr-io/semantic-release-npm/issues"
   },
   "contributors": [
     "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
@@ -51,7 +51,7 @@
     "lib",
     "index.js"
   ],
-  "homepage": "https://github.com/semantic-release/npm#readme",
+  "homepage": "https://github.com/glzr-io/semantic-release-npm#readme",
   "keywords": [
     "npm",
     "publish",
@@ -86,7 +86,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/semantic-release/npm.git"
+    "url": "https://github.com/glzr-io/semantic-release-npm.git"
   },
   "scripts": {
     "codecov": "codecov -f coverage/coverage-final.json",

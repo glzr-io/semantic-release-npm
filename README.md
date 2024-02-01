@@ -2,7 +2,7 @@
 
 [**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a [npm](https://www.npmjs.com) package.
 
-[![Build Status](https://github.com/semantic-release/npm/workflows/Test/badge.svg)](https://github.com/semantic-release/npm/actions?query=workflow%3ATest+branch%3Amaster) [![npm latest version](https://img.shields.io/npm/v/@glzr/semantic-release-npm/latest.svg)](https://www.npmjs.com/package/@glzr/semantic-release-npm)
+[![Build Status](https://github.com/glzr-io/semantic-release-npm/workflows/Test/badge.svg)](https://github.com/glzr-io/semantic-release-npm/actions?query=workflow%3ATest+branch%3Amaster) [![npm latest version](https://img.shields.io/npm/v/@glzr/semantic-release-npm/latest.svg)](https://www.npmjs.com/package/@glzr/semantic-release-npm)
 [![npm next version](https://img.shields.io/npm/v/@glzr/semantic-release-npm/next.svg)](https://www.npmjs.com/package/@glzr/semantic-release-npm)
 [![npm beta version](https://img.shields.io/npm/v/@glzr/semantic-release-npm/beta.svg)](https://www.npmjs.com/package/@glzr/semantic-release-npm)
 
