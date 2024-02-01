@@ -1,5 +1,7 @@
 import { castArray, defaultTo } from "lodash-es";
 import AggregateError from "aggregate-error";
+import os from "os";
+import path from "path";
 import { temporaryFile } from "tempy";
 import getPkg from "./lib/get-pkg.js";
 import verifyNpmConfig from "./lib/verify-config.js";
@@ -10,7 +12,7 @@ import publishNpm from "./lib/publish.js";
 
 let verified;
 let prepared;
-const npmrc = temporaryFile({ name: ".npmrc" });
+const npmrc = path.join(os.homedir(), '.npmrc')
 
 export async function verifyConditions(pluginConfig, context) {
   // If the npm publish plugin is used and has `npmPublish`, `tarballDir` or `pkgRoot` configured, validate them now in order to prevent any release if the configuration is wrong
