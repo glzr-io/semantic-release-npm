@@ -62,7 +62,7 @@ test('Skip npm auth verification if "package.private" is true', async (t) => {
       {
         cwd,
         env: {},
-        options: { publish: ["@semantic-release/npm"] },
+        options: { publish: ["@glzr/semantic-release-npm"] },
         stdout: t.context.stdout,
         stderr: t.context.stderr,
         logger: t.context.logger,
@@ -81,7 +81,7 @@ test('Skip npm token verification if "package.private" is true', async (t) => {
       {
         cwd,
         env: {},
-        options: { publish: ["@semantic-release/npm"] },
+        options: { publish: ["@glzr/semantic-release-npm"] },
         stdout: t.context.stdout,
         stderr: t.context.stderr,
         logger: t.context.logger,
@@ -196,7 +196,7 @@ test("Throw SemanticReleaseError Array if config option are not valid in verifyC
             cwd,
             env: {},
             options: {
-              publish: ["@semantic-release/github", { path: "@semantic-release/npm", npmPublish, tarballDir, pkgRoot }],
+              publish: ["@semantic-release/github", { path: "@glzr/semantic-release-npm", npmPublish, tarballDir, pkgRoot }],
             },
             stdout: t.context.stdout,
             stderr: t.context.stderr,
@@ -422,7 +422,7 @@ test("Throw SemanticReleaseError Array if config option are not valid in publish
           {
             cwd,
             env: {},
-            options: { publish: ["@semantic-release/github", "@semantic-release/npm"] },
+            options: { publish: ["@semantic-release/github", "@glzr/semantic-release-npm"] },
             nextRelease: { version: "1.0.0" },
             stdout: t.context.stdout,
             stderr: t.context.stderr,
@@ -505,7 +505,7 @@ test("Throw SemanticReleaseError Array if config option are not valid in prepare
           {
             cwd,
             env: {},
-            options: { publish: ["@semantic-release/github", "@semantic-release/npm"] },
+            options: { publish: ["@semantic-release/github", "@glzr/semantic-release-npm"] },
             nextRelease: { version: "1.0.0" },
             stdout: t.context.stdout,
             stderr: t.context.stderr,
@@ -692,7 +692,7 @@ test("Throw SemanticReleaseError Array if config option are not valid in addChan
           {
             cwd,
             env,
-            options: { publish: ["@semantic-release/github", "@semantic-release/npm"] },
+            options: { publish: ["@semantic-release/github", "@glzr/semantic-release-npm"] },
             nextRelease: { version: "1.0.0" },
             stdout: t.context.stdout,
             stderr: t.context.stderr,
