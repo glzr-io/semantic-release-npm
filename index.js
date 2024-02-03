@@ -23,7 +23,7 @@ export async function verifyConditions(pluginConfig, context) {
     pluginConfig.npmPublish = pluginConfig.npmPublish ?? publishPlugin.npmPublish;
     pluginConfig.tarballDir = pluginConfig.tarballDir ?? publishPlugin.tarballDir;
     pluginConfig.pkgRoot = pluginConfig.pkgRoot ?? publishPlugin.pkgRoot;
-    pluginConfig.packageManager = pluginConfig.packageManager ?? publishPlugin.packageManager ?? 'npm';
+    pluginConfig.packageManager = pluginConfig.packageManager ?? publishPlugin.packageManager ?? "npm";
   }
 
   const errors = verifyNpmConfig(pluginConfig);
